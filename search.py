@@ -1,7 +1,7 @@
 from sqlalchemy import select 
 from sqlalchemy.orm import Session 
 
-from models import FAQItem
+from models.faq_item import FAQItem
 from embeddings import generate_embeddings
 
 def search_faq(question: str, db: Session):

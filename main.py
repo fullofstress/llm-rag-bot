@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from routes import chat, admin
 from search import search_faq
 from db import get_db
 
@@ -16,3 +17,6 @@ def ask(question: str, db: Session = Depends(get_db)):
     result = search_faq(question, db)
 
     return result
+
+app.include_router(chat.router)
+app.include_router(admin.router)

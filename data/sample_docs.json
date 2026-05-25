@@ -1,0 +1,52 @@
+[
+    {
+      "title": "Account Login Issues",
+      "source_type": "faq",
+      "content": "If you are unable to log in to your account, first ensure that your email and password are correct. If you forgot your password, click on 'Forgot Password' and follow the instructions sent to your email. Accounts may be temporarily locked after 5 failed login attempts for security reasons. In this case, wait 15 minutes or contact support to unlock your account."
+    },
+    {
+      "title": "Billing and Payments",
+      "source_type": "faq",
+      "content": "We accept credit cards, debit cards, and PayPal. Invoices are generated automatically after each successful payment. If your payment fails, check that your card has sufficient balance and is enabled for international transactions. Refunds are processed within 5–7 business days after approval."
+    },
+    {
+      "title": "Refund Policy",
+      "source_type": "faq",
+      "content": "Customers are eligible for a refund within 14 days of purchase if the service has not been significantly used. Refund requests must be submitted through the support dashboard. Certain subscription plans are non-refundable once the billing cycle has started."
+    },
+    {
+      "title": "Shipping Information",
+      "source_type": "faq",
+      "content": "Orders are typically processed within 1–2 business days. Domestic shipping takes 3–5 business days. International shipping takes 7–14 business days. You will receive a tracking number once your order is shipped."
+    },
+    {
+      "title": "Security and Data Protection",
+      "source_type": "faq",
+      "content": "We use industry-standard encryption (TLS 1.2+) to protect user data. Passwords are never stored in plain text and are hashed using secure algorithms. We recommend enabling two-factor authentication for additional account security."
+    },
+    {
+      "title": "AI Assistant Features",
+      "source_type": "docs",
+      "content": "Our AI assistant supports question answering using a company knowledge base, multi-turn conversations with memory, and context-aware responses using retrieval augmented generation (RAG). The system retrieves relevant documents before generating answers using a language model."
+    },
+    {
+      "title": "API Overview",
+      "source_type": "docs",
+      "content": "The API is built using FastAPI. Base URL is /api/v1. Main endpoints include POST /chat for AI questions and POST /admin/ingest for adding new documents to the knowledge base. All responses are returned in JSON format."
+    },
+    {
+      "title": "Partial Refund Conditions",
+      "source_type": "policy",
+      "content": "Partial refunds may be granted if the service was used less than 30 percent, the request is made within 10 days, and the account is in good standing. Refunds are calculated based on usage percentage."
+    },
+    {
+      "title": "Subscription Cancellation",
+      "source_type": "policy",
+      "content": "Users can cancel their subscription at any time. After cancellation, access continues until the end of the billing cycle. No additional charges will occur after cancellation."
+    },
+    {
+      "title": "Customer Support",
+      "source_type": "support",
+      "content": "You can contact support via email at support@example.com or through live chat available from 9 AM to 6 PM EST. Average response time is 24 hours."
+    }
+  ]
