@@ -1,0 +1,22 @@
+[
+    {
+        "question": "What is the support email?",
+        "answer": "support@example.com"
+    },
+    {
+        "question": "What is the support phone number?",
+        "answer": "+1234567890"
+    },
+    {
+        "question": "What is the support hours?",
+        "answer": "9:00 AM - 5:00 PM"
+    },
+    {
+        "question": "How do I reset my password?",
+        "answer": "You can reset your password by clicking the reset password link in the email you received."
+    },
+    {
+        "question": "How can I cancel my subscription?",
+        "answer": "Open billing page and click cancel subscription"
+    }
+]
